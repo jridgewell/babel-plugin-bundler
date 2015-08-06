@@ -1,0 +1,19 @@
+{
+  "name": "babel-plugin-bundler",
+  "version": "1.0.0",
+  "description": "A concatenated module bundler, without redundant UMD boilerplate.",
+  "repository": "jridgewell/babel-plugin-bundler",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "devDependencies": {
+    "babel": "^5.6.0"
+  },
+  "scripts": {
+    "build": "babel-plugin build",
+    "push": "babel-plugin publish",
+    "test": "babel-plugin test"
+  },
+  "keywords": [
+    "babel-plugin"
+  ]
+}
